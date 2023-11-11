@@ -14,5 +14,12 @@ class Main {
         oddSum += number;
       }
     }
+    
+    hello ("Bob");
+  }
+  
+  
+  public static void hello (String name) {
+    System.out.println(name + "さんこんにちは");
   }
 }
