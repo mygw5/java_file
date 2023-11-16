@@ -2,30 +2,16 @@ class Main {
   // クラス部分
   public static void main(String[] args) {
     // メソッド部分
-  //   int[] numbers = {1, 4, 5, 16, 19};
+    String name = "Kana";
+    int age = 10;
+    double height = 1.45;
+    double weight = 40;
+    double bmi = weight / height / height;
 
-  //   int oddSum = 0;
-  //   int evenSum = 0;
-
-  //   for (int number : numbers) {
-  //     if (number % 2 == 0) {
-  //       evenSum += number;
-  //     } else {
-  //       oddSum += number;
-  //     }
-  //   }
-
-  //   System.out.println(oddSum);
-  //   System.out.println(evenSum);
-
-  //   hello ("Bob");
-
-    String name = Person.fullName("Elen", "Violet");
-    System.out.println(name);
+    System.out.println("名前は" + name + "です");
+    System.out.println("年齢は" + age + "です");
+    System.out.println("身長は" + height + "mです");
+    System.out.println("体重は" + weight + "kgです");
+    System.out.println("BMIは" + bmi + "です");
    }
-
-
-  // public static void hello (String name) {
-  //   System.out.println(name + "さんこんにちは");
-  // }
 }
